@@ -145,9 +145,14 @@ main{
         width: 500px;
         position: absolute;
         top: 0;
-        /* display: none; */
+         display: none; 
    }
 
    article:hover .overlay {
 
+    display: inline-block;
    }
+
+
+   /* footer style */
+
