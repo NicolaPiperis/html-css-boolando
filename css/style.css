@@ -15,6 +15,7 @@ header{
     width: 100%;
     border-bottom: 1px solid black;
     position: fixed;
+    z-index: 1000;
     top: 0;
     right: 0;
     left: 0;
@@ -60,3 +61,93 @@ header{
     }
 
 /* main style */
+
+main{
+    width: 80%;
+    margin: 200px auto;
+}
+
+    /* articles style */
+    .row{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    article img {
+        width:500px;
+    }
+
+    article{
+        position: relative;
+    }
+
+    .price{
+        font-size: smaller;
+    }
+
+    .price .red {
+        color: red;
+    }
+
+    .price .old-price {
+        text-decoration: line-through;
+    }
+
+    .scount {
+        background-color: red;
+        color: white;
+        padding: 8px;
+        position: absolute;
+        bottom: 120px;
+        left: 0;
+        
+    }
+
+    .eco-friendly{
+        background-color: green;
+        color: white;
+        padding: 8px;
+        position: absolute;
+        bottom: 120px;
+        left: 65px;
+    }
+
+    #eco-friendly-alone{
+        position: absolute;
+        bottom: 120px;
+        left: 0;
+        background-color: green;
+        color: white;
+        padding: 8px;
+    }
+
+    .heart{
+        color: black;
+        background-color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: absolute;
+        right: 0;
+        top: 45px;
+        font-size: 40px;
+    }
+
+    /* hover articles style */
+
+    .heart:hover{
+        cursor: pointer;
+        color: red;
+        background-color: black;
+    }
+
+   .overlay img {
+        width: 500px;
+        position: absolute;
+        top: 0;
+        /* display: none; */
+   }
+
+   article:hover .overlay {
+
+   }
