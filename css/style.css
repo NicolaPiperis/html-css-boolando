@@ -13,28 +13,50 @@ header{
     background-color: #ff6900;
     height: 100px;
     width: 100%;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
+    /* nav style */
+    nav{
+        height: 100%;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-nav{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        /* list style */
+        #gender{
+            display: flex;
+            justify-content: space-between;
+            flex-basis: 200px;
+        }
 
-#gender{
-    display: flex;
-    justify-content: space-between;
-    flex-basis: 200px;
-}
+        a{
+            text-decoration: none;
+            color: white;
+        }
 
-a{
-    text-decoration: none;
-    color: white;
-}
+        a:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    
+    /* logo style */
+    #logo img{
+        width: 180px;
+    }
 
-#logo img{
-    width: 180px;
-    margin-top: 50px;
-}
+    /* icons style */
+    #header-icon{
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 80px;
+    }
+
+/* main style */
