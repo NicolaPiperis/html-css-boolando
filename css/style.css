@@ -53,7 +53,7 @@ header{
     }
 
     /* icons style */
-    #header-icon{
+    .icon{
         cursor: pointer;
         display: flex;
         justify-content: space-between;
@@ -135,24 +135,74 @@ main{
 
     /* hover articles style */
 
+    /*  */
     .heart:hover{
         cursor: pointer;
         color: red;
         background-color: black;
     }
 
-   .overlay img {
+   .img-b {
         width: 500px;
-        position: absolute;
-        top: 0;
-         display: none; 
+        display: none;
    }
 
-   article:hover .overlay {
+   article:hover .img-a{
+    display: none;
+   }
 
+   article:hover .img-b{
     display: inline-block;
    }
-
+   
 
    /* footer style */
 
+   footer{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 100px;
+
+   }
+
+   footer strong {
+    color: white;
+   }
+
+#information{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#legal{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#legal ul{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 500px;
+    font-size: smaller;
+    margin-top: 10px;
+}
+
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#business-name strong
+{
+    font-size: larger;
+}
+
+#contact .icon {
+    flex-basis: 180px;
+    margin-top: 10px;
+}
