@@ -13,7 +13,7 @@ header{
     background-color: #ff6900;
     height: 100px;
     width: 100%;
-    border-bottom: 1px solid black;
+    box-shadow: 2px 2px 4px 2px #f4cca6c2;
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -98,9 +98,9 @@ main{
         background-color: red;
         color: white;
         padding: 8px;
-        position: absolute;
+        /* position: absolute;
         bottom: 120px;
-        left: 0;
+        left: 0; */
         
     }
 
@@ -108,18 +108,26 @@ main{
         background-color: green;
         color: white;
         padding: 8px;
-        position: absolute;
+        /* position: absolute;
         bottom: 120px;
-        left: 65px;
+        left: 65px; */
     }
 
-    #eco-friendly-alone{
+    /* #eco-friendly-alone{
         position: absolute;
         bottom: 120px;
         left: 0;
         background-color: green;
         color: white;
         padding: 8px;
+    } */
+
+    .label{
+        position: absolute;
+        bottom: 120px;
+        left: 0;
+        display: flex;
+        gap: 10px;
     }
 
     .heart{
